@@ -35,7 +35,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="platform/dalvik" revision="3102d523c787402faf4590c7e25cef8c3e20afa4" />
   <project path="development" name="platform/development" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
