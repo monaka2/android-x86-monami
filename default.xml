@@ -41,6 +41,7 @@
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
+  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound"/>
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/ril" name="platform/hardware/ril" />
 
@@ -82,6 +83,8 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
 
   <project path="external/aes" name="platform/external/aes" />
+  <project path="external/alsa-lib" name="platform/external/alsa-lib"/>
+  <project path="external/alsa-utils" name="platform/external/alsa-utils"/>
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/bluez" name="platform/external/bluez" />
