@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="git://github.com/monaka" />
+
+  <project path="external/libusb" name="libusb-android" remote="github"/>
+  <project path="external/libusb-compat" name="libusb-compat-android" remote="github"/>
+</manifest>
