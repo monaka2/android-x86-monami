@@ -5,6 +5,7 @@
            review="review.source.android.com" />
   <remote  name="x86"
            fetch="git://218.211.38.204/android-x86/" />
+  <remote name="github" fetch="git://github.com/monaka" />
   <default revision="master"
            remote="korg" />
 
@@ -142,4 +143,7 @@
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
+
+  <project path="external/libusb" name="libusb-android" remote="github"/>
+  <project path="external/libusb-compat" name="libusb-compat-android" remote="github"/>
 </manifest>
