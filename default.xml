@@ -3,34 +3,47 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
+  <remote  name="x86"
+           fetch="git://218.211.38.204/android-x86/" />
   <default revision="master"
            remote="korg" />
 
-  <project path="build" name="platform/build">
+  <!-- from x86 port repositories -->
+  <project path="build" name="platform/build" remote="x86">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="bionic" name="platform/bionic" />
+  <project path="kernel" name="kernel/common" revision="refs/heads/android-2.6.29" remote="x86" />
 
+  <project path="bionic" name="platform/bionic" remote="x86" />
+  <project path="dalvik" name="platform/dalvik" remote="x86" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="x86" />
+  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" remote="x86" />
+  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" remote="x86" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" />
+  <project path="prebuilt" name="platform/prebuilt" remote="x86" />
+  <project path="system/core" name="platform/system/core" remote="x86" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="x86" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="x86" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="x86" />
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="x86" />
+
+  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" />
+  <project path="vendor/asus/eeepc" name="platform/vendor/asus/eeepc" remote="x86" />
+
+  <!-- from original Android repositories -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
-  <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="prebuilt" name="platform/prebuilt" />
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
@@ -52,7 +65,6 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch" />
   <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
@@ -60,7 +72,6 @@
   <project path="packages/apps/IM" name="platform/packages/apps/IM" />
   <project path="packages/apps/Launcher" name="platform/packages/apps/Launcher" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
@@ -75,6 +86,8 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
 
   <project path="external/aes" name="platform/external/aes" />
+  <project path="external/alsa-lib" name="platform/external/alsa-lib"/>
+  <project path="external/alsa-utils" name="platform/external/alsa-utils"/>
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
@@ -86,7 +99,6 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/eglib" name="platform/external/eglib" />
@@ -141,12 +153,9 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremor" name="platform/external/tremor" />
   <project path="external/webkit" name="platform/external/webkit" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
 
-  <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" />
- 
   <project path="vendor/sample" name="platform/vendor/sample" />
 </manifest>
