@@ -26,6 +26,7 @@
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="x86" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="x86" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="x86" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="x86" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="x86" />
 
@@ -98,7 +99,6 @@
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
   <project path="external/dbus" name="platform/external/dbus" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
   <project path="external/elfutils" name="platform/external/elfutils" />
