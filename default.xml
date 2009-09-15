@@ -4,7 +4,7 @@
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
   <remote  name="x86"
-           fetch="git://218.211.38.204/android-x86/" />
+           fetch="git://git.android-x86.org/android-x86/" />
   <default revision="master"
            remote="korg" />
 
@@ -23,11 +23,13 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" />
   <project path="prebuilt" name="platform/prebuilt" remote="x86" />
   <project path="system/core" name="platform/system/core" remote="x86" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="x86" />
+  <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" remote="x86" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="x86" />
+  <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="x86" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="x86" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="x86" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="x86" />
 
   <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" />
@@ -52,7 +54,6 @@
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
   <project path="packages/providers/GoogleSubscribedFeedsProvider" name="platform/packages/providers/GoogleSubscribedFeedsProvider" />
@@ -62,7 +63,6 @@
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider" />
 
-  <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
@@ -99,6 +99,7 @@
   <project path="external/clearsilver" name="platform/external/clearsilver" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dropbear" name="platform/external/dropbear" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/eglib" name="platform/external/eglib" />
