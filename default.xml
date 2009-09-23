@@ -4,7 +4,7 @@
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
   <remote  name="x86"
-           fetch="git://git.android-x86.org/android-x86/" />
+           fetch="git://git.android-x86.org/" />
   <default revision="master"
            remote="korg" />
 
