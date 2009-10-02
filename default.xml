@@ -25,6 +25,7 @@
   <project path="system/core" name="platform/system/core" remote="x86" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="x86" />
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" remote="x86" />
+  <project path="packages/apps/ConnectBot" name="platform/packages/apps/ConnectBot" remote="x86" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="x86" />
   <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="x86" />
