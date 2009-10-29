@@ -22,7 +22,9 @@
   <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" remote="x86" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" />
   <project path="prebuilt" name="platform/prebuilt" remote="x86" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" remote="x86" />
   <project path="system/core" name="platform/system/core" remote="x86" />
+  <project path="system/extras" name="platform/system/extras" remote="x86" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="x86" />
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" remote="x86" />
   <project path="packages/apps/ConnectBot" name="platform/packages/apps/ConnectBot" remote="x86" />
@@ -48,10 +50,6 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/extras" name="platform/system/extras" />
-  <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
@@ -158,8 +156,5 @@
   <project path="external/tremor" name="platform/external/tremor" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/xdelta3" name="platform/external/xdelta3" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-
-  <project path="vendor/sample" name="platform/vendor/sample" />
 </manifest>
