@@ -35,6 +35,8 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="x86" />
   <project path="external/bluez" name="platform/external/bluez" remote="x86" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="x86" />
+  <project path="external/drm" name="platform/external/drm" remote="x86" />
+  <project path="external/mesa" name="platform/external/mesa" remote="x86" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="x86" />
 
   <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" />
