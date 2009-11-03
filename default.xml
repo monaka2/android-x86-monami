@@ -32,6 +32,7 @@
   <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="x86" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="x86" />
   <project path="external/bluez" name="platform/external/bluez" remote="x86" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="x86" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="x86" />
@@ -85,7 +86,6 @@
 
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
 
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/alsa-lib" name="platform/external/alsa-lib"/>
