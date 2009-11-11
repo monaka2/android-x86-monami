@@ -17,6 +17,7 @@
 
   <project path="bionic" name="platform/bionic" remote="x86" />
   <project path="dalvik" name="platform/dalvik" remote="x86" />
+  <project path="development" name="platform/development" remote="x86" />
   <project path="frameworks/base" name="platform/frameworks/base" remote="x86" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" remote="x86" />
   <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" remote="x86" />
@@ -47,7 +48,6 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
-  <project path="development" name="platform/development" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
