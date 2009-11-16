@@ -5,43 +5,43 @@
            review="review.source.android.com" />
   <remote  name="x86"
            fetch="git://git.android-x86.org/" />
-  <default revision="master"
+  <default revision="donut-plus-aosp"
            remote="korg" />
 
   <!-- from x86 port repositories -->
-  <project path="build" name="platform/build" remote="x86">
+  <project path="build" name="platform/build" remote="x86" revision="donut-x86">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="kernel" name="kernel/common" revision="refs/heads/android-2.6.29" remote="x86" />
 
-  <project path="bionic" name="platform/bionic" remote="x86" />
-  <project path="dalvik" name="platform/dalvik" remote="x86" />
-  <project path="development" name="platform/development" remote="x86" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="x86" />
-  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" remote="x86" />
-  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" remote="x86" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" />
-  <project path="prebuilt" name="platform/prebuilt" remote="x86" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" remote="x86" />
-  <project path="system/core" name="platform/system/core" remote="x86" />
-  <project path="system/extras" name="platform/system/extras" remote="x86" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="x86" />
-  <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" remote="x86" />
-  <project path="packages/apps/ConnectBot" name="platform/packages/apps/ConnectBot" remote="x86" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="x86" />
-  <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="x86" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="x86" />
-  <project path="external/bluez" name="platform/external/bluez" remote="x86" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="x86" />
-  <project path="external/drm" name="platform/external/drm" remote="x86" />
-  <project path="external/mesa" name="platform/external/mesa" remote="x86" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="x86" />
+  <project path="bionic" name="platform/bionic" remote="x86" revision="donut-x86" />
+  <project path="dalvik" name="platform/dalvik" remote="x86" revision="donut-x86" />
+  <project path="development" name="platform/development" remote="x86" revision="donut-x86" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="x86" revision="donut-x86" />
+  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" remote="x86" revision="donut-x86" />
+  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" remote="x86" revision="donut-x86" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" revision="donut-x86" />
+  <project path="prebuilt" name="platform/prebuilt" remote="x86" revision="donut-x86" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" remote="x86" revision="donut-x86" />
+  <project path="system/core" name="platform/system/core" remote="x86" revision="donut-x86" />
+  <project path="system/extras" name="platform/system/extras" remote="x86" revision="donut-x86" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="x86" revision="donut-x86" />
+  <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" remote="x86" revision="donut-x86" />
+  <project path="packages/apps/ConnectBot" name="platform/packages/apps/ConnectBot" remote="x86" revision="donut-x86" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="x86" revision="donut-x86" />
+  <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" revision="donut-x86" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="x86" revision="donut-x86" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" revision="donut-x86" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="x86" revision="donut-x86" />
+  <project path="external/bluez" name="platform/external/bluez" remote="x86" revision="donut-x86" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="x86" revision="donut-x86" />
+  <project path="external/drm" name="platform/external/drm" remote="x86" revision="donut-x86" />
+  <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="donut-x86" />
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="x86" revision="donut-x86" />
 
-  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" />
-  <project path="vendor/asus/eeepc" name="platform/vendor/asus/eeepc" remote="x86" />
+  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="donut-x86" />
+  <project path="vendor/asus/eeepc" name="platform/vendor/asus/eeepc" remote="x86" revision="donut-x86" />
 
   <!-- from original Android repositories -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -90,8 +90,8 @@
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
 
   <project path="external/aes" name="platform/external/aes" />
-  <project path="external/alsa-lib" name="platform/external/alsa-lib"/>
-  <project path="external/alsa-utils" name="platform/external/alsa-utils"/>
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" revision="master" />
+  <project path="external/alsa-utils" name="platform/external/alsa-utils" revision="master" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
