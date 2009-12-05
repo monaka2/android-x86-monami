@@ -39,6 +39,7 @@
   <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="x86" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="x86" />
   <project path="vendor/asus/eeepc" name="platform/vendor/asus/eeepc" remote="x86" />
+  <project path="vendor/samsung/q1u" name="platform/vendor/samsung/q1u" remote="x86" />
 
   <!-- from original Android repositories -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
