@@ -20,6 +20,7 @@
   <project path="development" name="platform/development" remote="x86" />
   <project path="frameworks/base" name="platform/frameworks/base" remote="x86" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" remote="x86" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="x86" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" />
   <project path="prebuilt" name="platform/prebuilt" remote="x86" />
   <project path="system/bluetooth" name="platform/system/bluetooth" remote="x86" />
@@ -51,7 +52,6 @@
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/ril" name="platform/hardware/ril" />
 
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
