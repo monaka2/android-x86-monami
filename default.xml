@@ -158,7 +158,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
 
   <project path="external/libusb" name="libusb-android" remote="github"/>
-  <project path="external/libusb-compat" name="libusb-compat-android" remote="g
-  <project path="external/libusbjava" name="libusbjava-android" remote="github"
+  <project path="external/libusb-compat" name="libusb-compat-android" remote="github"/>
+  <project path="external/libusbjava" name="libusbjava-android" remote="github"/>
 
 </manifest>
