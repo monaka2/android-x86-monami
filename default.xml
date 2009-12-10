@@ -163,7 +163,7 @@
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/zlib" name="platform/external/zlib" />
 
-  <project path="external/libusb" name="libusb-android" remote="github"/>
-  <project path="external/libusb-compat" name="libusb-compat-android" remote="github"/>
-  <project path="external/libusbjava" name="libusbjava-android" remote="github"/>
+  <project path="external/libusb" name="libusb-android" remote="github" revision="master" />
+  <project path="external/libusb-compat" name="libusb-compat-android" remote="github" revision="master" />
+  <project path="external/libusbjava" name="libusbjava-android" remote="github" revision="master" />
 </manifest>
