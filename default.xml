@@ -14,31 +14,26 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="kernel" name="kernel/common" revision="android-2.6.29" remote="x86" />
+  <project path="kernel" name="kernel/common" revision="refs/heads/android-2.6.29" remote="x86" />
+
   <project path="bionic" name="platform/bionic" remote="x86" />
-  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" />
   <project path="dalvik" name="platform/dalvik" remote="x86" />
-  <project path="development" name="platform/development" remote="x86" />
   <project path="frameworks/base" name="platform/frameworks/base" remote="x86" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" remote="x86" />
+  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" remote="x86" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" />
   <project path="prebuilt" name="platform/prebuilt" remote="x86" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" remote="x86" />
   <project path="system/core" name="platform/system/core" remote="x86" />
-  <project path="system/extras" name="platform/system/extras" remote="x86" />
-  <project path="system/vold" name="platform/system/vold" remote="x86" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="x86" />
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" remote="x86" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" remote="x86" />
-  <project path="packages/apps/ConnectBot" name="platform/packages/apps/ConnectBot" remote="x86" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="x86" />
   <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="x86" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="x86" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="x86" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="x86" />
+
+  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" />
   <project path="vendor/asus/eeepc" name="platform/vendor/asus/eeepc" remote="x86" />
 
   <!-- from original Android repositories -->
@@ -46,12 +41,16 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
+  <project path="development" name="platform/development" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/ril" name="platform/hardware/ril" />
+
+  <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
@@ -64,6 +63,7 @@
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider" />
 
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
@@ -76,7 +76,6 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Sync" name="platform/packages/apps/Sync" />
@@ -155,6 +154,8 @@
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/zlib" name="platform/external/zlib" />
+
+  <project path="vendor/sample" name="platform/vendor/sample" />
 
   <project path="external/libusb" name="libusb-android" remote="github"/>
   <project path="external/libusb-compat" name="libusb-compat-android" remote="github"/>
