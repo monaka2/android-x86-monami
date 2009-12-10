@@ -22,6 +22,7 @@
   <project path="development" name="platform/development" remote="x86" />
   <project path="frameworks/base" name="platform/frameworks/base" remote="x86" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" remote="x86" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="x86" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" />
   <project path="prebuilt" name="platform/prebuilt" remote="x86" />
   <project path="system/bluetooth" name="platform/system/bluetooth" remote="x86" />
@@ -39,8 +40,10 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="x86" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="x86" />
+  <project path="external/tslib" name="platform/external/tslib" remote="x86" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="x86" />
   <project path="vendor/asus/eeepc" name="platform/vendor/asus/eeepc" remote="x86" />
+  <project path="vendor/samsung/q1u" name="platform/vendor/samsung/q1u" remote="x86" />
 
   <!-- from original Android repositories -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -51,7 +54,6 @@
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/ril" name="platform/hardware/ril" />
 
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
