@@ -92,8 +92,8 @@
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
 
   <project path="external/aes" name="platform/external/aes" />
-  <project path="external/alsa-lib" name="platform/external/alsa-lib" revision="master" />
-  <project path="external/alsa-utils" name="platform/external/alsa-utils" revision="master" />
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" revision="donut" />
+  <project path="external/alsa-utils" name="platform/external/alsa-utils" revision="donut" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
