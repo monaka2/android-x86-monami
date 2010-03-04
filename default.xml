@@ -29,6 +29,7 @@
   <project path="system/extras" name="platform/system/extras" remote="x86" revision="donut-x86" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="x86" revision="donut-x86" />
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" remote="x86" revision="donut-x86" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" remote="x86" revision="donut-x86" />
   <project path="packages/apps/ConnectBot" name="platform/packages/apps/ConnectBot" remote="x86" revision="donut-x86" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="x86" revision="donut-x86" />
   <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" revision="donut-x86" />
@@ -73,7 +74,6 @@
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch" />
   <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
