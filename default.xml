@@ -22,13 +22,16 @@
   <project path="development" name="platform/development" remote="x86" revision="donut-x86" />
   <project path="frameworks/base" name="platform/frameworks/base" remote="x86" revision="donut-x86" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" remote="x86" revision="donut-x86" />
+  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" remote="x86" revision="donut-x86" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" revision="donut-x86" />
+  <project path="hardware/ril" name="platform/hardware/ril" remote="x86" revision="donut-x86" />
   <project path="prebuilt" name="platform/prebuilt" remote="x86" revision="donut-x86" />
   <project path="system/bluetooth" name="platform/system/bluetooth" remote="x86" revision="donut-x86" />
   <project path="system/core" name="platform/system/core" remote="x86" revision="donut-x86" />
   <project path="system/extras" name="platform/system/extras" remote="x86" revision="donut-x86" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="x86" revision="donut-x86" />
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" remote="x86" revision="donut-x86" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" remote="x86" revision="donut-x86" />
   <project path="packages/apps/ConnectBot" name="platform/packages/apps/ConnectBot" remote="x86" revision="donut-x86" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="x86" revision="donut-x86" />
   <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" revision="donut-x86" />
@@ -40,6 +43,8 @@
   <project path="external/tslib" name="platform/external/tslib" remote="x86" revision="donut-x86" />
   <project path="external/drm" name="platform/external/drm" remote="x86" revision="donut-x86" />
   <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="donut-x86" />
+  <project path="external/opencore" name="platform/external/opencore" remote="x86" revision="donut-x86" />
+  <project path="external/ppp" name="platform/external/ppp" remote="x86" revision="donut-x86" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="x86" revision="donut-x86" />
 
   <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="donut-x86" />
@@ -54,9 +59,7 @@
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" revision="donut" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
 
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
@@ -73,7 +76,6 @@
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch" />
   <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
@@ -140,11 +142,9 @@
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
-  <project path="external/opencore" name="platform/external/opencore" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
-  <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
